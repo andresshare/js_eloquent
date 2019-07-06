@@ -47,7 +47,20 @@ for (let i = 1; i <= size; i++) {
 
 console.log(chessTable(8));
 
-//code 
+//code 4 
 var min = function(x, y) {
     return (x <= y) ? x : y;
 };
+
+//code 5
+
+ar isEven = function(num) {
+    num = Math.abs(num); 
+    if (num === 0)
+        return true;
+    else if (num === 1)
+        return false;
+    else
+        return isEven(num - 2);
+};
+
