@@ -47,4 +47,7 @@ for (let i = 1; i <= size; i++) {
 
 console.log(chessTable(8));
 
-
+//code 
+var min = function(x, y) {
+    return (x <= y) ? x : y;
+};
