@@ -54,7 +54,7 @@ var min = function(x, y) {
 
 //code 5
 
-ar isEven = function(num) {
+let isEven = function(num) {
     num = Math.abs(num); 
     if (num === 0)
         return true;
@@ -64,3 +64,26 @@ ar isEven = function(num) {
         return isEven(num - 2);
 };
 
+//code 6
+
+let countString = function(str){
+  return str.match(/B/g).length
+}
+
+console.log(countString('BBC'))
+
+//code 7
+
+
+var range = function(start, end, step) {
+    var arr = [];
+    for (var i = start; step > 1 || step === undefined ? i <= end : i >= end; step ? i = i + step : i++)
+        arr.push(i);
+    return arr;
+};
+
+var sum = function(arr) {
+    return arr.reduce(function(x, y) {
+        return x + y;
+    });
+};
