@@ -87,3 +87,12 @@ var sum = function(arr) {
         return x + y;
     });
 };
+
+//code 8
+
+var reverseArray = function(arr) {
+    var newArr = [];
+    for (var i = arr.length - 1; i >= 0; i--)
+        newArr.push(arr[i]);
+    return newArr;
+};
