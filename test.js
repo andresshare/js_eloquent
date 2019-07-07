@@ -96,3 +96,9 @@ var reverseArray = function(arr) {
         newArr.push(arr[i]);
     return newArr;
 };
+
+//code 8 
+
+let dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+  dayName = dayNames[new Date(dateString).getDay()];
